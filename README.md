@@ -12,11 +12,11 @@
 
 freeCodeCamp is a nonprofit organization that offers a comprehensive online learning platform for individuals interested in web development and programming. Founded in 2014, it provides a range of free courses, tutorials, and resources to help users learn coding skills and build projects.
 
-</div><br>
+</div>
 
 **Key Features of freeCodeCamp:**
 
-</div><br>
+</div>
 
 - Curriculum: The curriculum is structured around various certifications, covering topics like HTML, CSS, JavaScript, data visualization, APIs, and more. Each certification requires the completion of several projects.
   
@@ -66,4 +66,9 @@ freeCodeCamp is a nonprofit organization that offers a comprehensive online lear
 - [freeCodeCamp on Youtube](https://www.youtube.com/c/Freecodecamp)
 - [freeCodeCamp on Instagram](https://www.instagram.com/freecodecamp)<br><br>
 
+<div align="center"><br>
+
+
 ![freeCodeCamp footer](/images/freecodecamp_footer.png)
+
+</div>
