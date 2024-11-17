@@ -58,7 +58,7 @@ freeCodeCamp is a nonprofit organization that offers a comprehensive online lear
 <div align="center"><br>
 
 
-**Start learning with freeCampCode**
+**Start learning with freeCodeCamp**
 
 </div>
 
