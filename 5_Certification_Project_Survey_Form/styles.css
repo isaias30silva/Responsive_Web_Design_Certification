@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-color: brown
+  }
+  
+  h1, p {
+    text-align: center;
+    margin: 1em auto;
+    color: #ffffff;
+  }
+  
+  form {
+      width: 80vw;
+      max-width: 500px;
+      min-width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: burlywood;
+  }
+  
+  fieldset {
+      border: none;
+  }
+  
+  fieldset:last-of-type {
+      border-bottom: none;
+  }
+  
+  label {
+      display: block;
+      margin: 0.5rem 0;
+  
+  }
+  
+  .label-text {
+      font-weight: bold;
+      font-size: 18px;
+  }
+  
+  input, textarea, select {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+      min-height: 2em;
+  }
+  
+  input, textarea, select {
+      background-color: #EADDCA;
+      border: 1px solid #0a0a23;
+      color: #0a0a23
+  }
+  
+  .inline {
+      width: unset;
+      margin: 0 0.5em 0 0;
+      vertical-align: middle;
+      display: inline;
+  }
+  
+  #current-role {
+      margin-top: 25px;
+  }
+  
+  #dropdown {
+      margin-top: -10px;
+  }
+  
+  #suggestion, #recommend {
+      margin-left: -10px;
+  }
+  
+  #recommend {
+      margin-top: 20px;
+  }
+  
+  input[type="submit"] {
+      display: block;
+      width: 60%;
+      margin: 1em auto;
+      height: 2em;
+      font-size: 1.1rem;
+      background-color: #EADDCA;
+      border-color: white;
+      min-width: 300px;
+      cursor: pointer;
+      font-weight: bold;
+      border: 1px solid #0a0a23;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #E97451;
+    color: #ffffff;
+  }
+  
