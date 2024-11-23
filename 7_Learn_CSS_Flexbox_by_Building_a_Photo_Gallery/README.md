@@ -1,1 +1,1 @@
-![Rothko Painting](/6_Learn_the_CSS_Box_Model_by_Building_a_Rothko_Painting/images/rothko_paiting.png)
+![Photo Cat Gallery](/7_Learn_CSS_Flexbox_by_Building_a_Photo_Gallery/images/photo_gallery.png)
