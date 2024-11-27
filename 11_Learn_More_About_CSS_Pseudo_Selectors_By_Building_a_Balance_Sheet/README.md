@@ -1,0 +1,1 @@
+![Balance Sheet](/11_Learn_More_About_CSS_Pseudo_Selectors_By_Building_a_Balance_Sheet/images/balance_sheet.png)
