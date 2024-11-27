@@ -1,1 +1,1 @@
-![Balance Sheet](/11_Learn_More_About_CSS_Pseudo_Selectors_By_Building_a_Balance_Sheet/images/balance_sheet.png)
+![Cat Painting](/12_Learn_Intermediate_CSS_By_Building_a_Cat_Painting/images/cat_painting.png)
