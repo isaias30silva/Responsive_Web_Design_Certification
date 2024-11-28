@@ -1,1 +1,1 @@
-![Cat Painting](/12_Learn_Intermediate_CSS_By_Building_a_Cat_Painting/images/cat_painting.png)
+![Piano](/13_Learn_Responsive_Web_Design_By_Building_a_Piano/images/piano.png)
