@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation HTML Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header class="tags_section">HTML tags section</header>
+        <ul>
+          <li><a href="#introduction" class="nav-link">Introduction</a></li>
+          <li><a href="#comment_tag" class="nav-link">Comment tag</a></li>
+          <li><a href="#html_tag" class="nav-link">HTML tag</a></li>
+          <li><a href="#head_tag" class="nav-link">Head tag</a></li>
+          <li><a href="#body_tag" class="nav-link">Body tag</a></li>
+          <li><a href="#main_tag" class="nav-link">Main tag</a></li>
+          <li><a href="#other_tags" class="nav-link">Other tags</a></li>
+          <li><a href="#reference" class="nav-link">Reference</a></li>
+        </ul>
+      </nav>
+      <section class="main-section" id="introduction">
+        <header class="header-body">Introduction</header>
+        <p class="content">
+          HTML tags are the
+          <span class="text-bold"
+            >keywords on a web page that define how your web browser must format
+            and display your web page.</span
+          >
+        </p>
+        <p class="content">
+          Almost all tags contain two parts, an opening, and a closing tag. For
+          example, <span class="tag-sample">&lt;html&gt;</span> is the opening
+          tag and <span class="tag-sample">&lt;/html&gt;</span> is the closing
+          tag. Note that the closing tag has
+          <span class="text-bold"
+            >the same text as the opening tag, but has an additional
+            forward-slash ( / ) character.&nbsp;</span
+          >
+        </p>
+
+        <p class="content">
+          There are a total of <span class="text-bold">100 HTML tags</span> and
+          here you will see and understand
+          <i>some of the most important HTML tags to use in your Webpages!</i>
+        </p>
+      </section>
+      <section class="main-section" id="comment_tag">
+        <header class="header-body">Comment tag</header>
+        <p class="definition">Definition</p>
+        <p class="content">
+          The comment tag is used to
+          <span class="tag-sample">insert comments in the source code.</span>
+        </p>
+        <p class="content">
+          Comments are not displayed in the browsers. You can use comments to
+          explain your code, which can help you when you edit the source code at
+          a later date. This is especially useful if you have a lot of code.
+        </p>
+        <pre>
+  <code class´="snippet">
+    &lt;!-- Write your comments here -->
+
+   &lt;!-- Remember to add more information here -->
+  </code>
+</pre>
+        <p class="use">Why to use it</p>
+        <ul>
+          <li>
+            <span class="text-bold">Explain code:</span> Comments can help you
+            understand your code when you edit it later.
+          </li>
+          <li>
+            <span class="text-bold">Debug:</span> You can comment out lines of
+            code to search for errors
+          </li>
+          <li>
+            <span class="text-bold">Hide content:</span> You can use comments to
+            hide parts of your code, such as a part of a paragraph.
+          </li>
+          <li>
+            <span class="text-bold">Find where an element ends:</span> You can
+            put comments after closing tags to help you find where an element
+            ends.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="html_tag">
+        <header class="header-body">HTML tag</header>
+        <p class="definition">Definition</p>
+        <p class="content">
+          The <span class="tag-sample">&lt;html&gt;</span> tag acts as the main
+          container for all HTML elements, framing the entire web content
+          structure. It follows the
+          <span class="tag-sample">&lt;!DOCTYPE&gt;</span> declaration and
+          requires both opening and closing tags.
+        </p>
+        <pre>
+  <code class´="snippet">
+  &lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;/html>
+  </code>
+</pre>
+        <p class="use">Why to use it</p>
+        <p class="content">
+          Everything still works because the browser is plugging it in for you.
+          You should use it because it makes your code more clear and standard.
+        </p>
+        <p class="content">
+          A developer looking at your code might be confused about what they're
+          seeing at first because they would wonder where the
+          <span class="tag-sample">&lt;html&gt;</span> tag is.
+        </p>
+        <p class="content">
+          As with any standard, the
+          <span class="tag-sample">&lt;html&gt;</span> tag guarantees that
+          things will work. Currently the tag can be omitted, but I still
+          wouldn't recommend it, to be safe.
+        </p>
+      </section>
+      <section class="main-section" id="head_tag">
+        <header class="header-body">Head tag</header>
+        <p class="definition">Definition</p>
+        <p class="content">
+          The head tag is an HTML element that defines the head section of an
+          HTML document. It contains <span class="text-bold">metadata</span>, or
+          data about data, that is used by browsers and search engines, but is
+          not displayed on the page.
+        </p>
+        <pre>
+  <code class´="snippet">
+  &lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8" />
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" />
+&lt;title>Here the Page Title/title>
+&lt;link rel="stylesheet" href="styles.css" />
+&lt;/head>
+&lt;body>
+&lt;/body>
+&lt;/html>
+  </code>
+</pre>
+        <p class="use">Why to use it</p>
+        <p class="content">
+          The <span class="tag-sample">&lt;head&gt;</span> element is a
+          container for metadata (data about data) and is placed between the
+          <span class="tag-sample">&lt;html&gt;</span> tag and the
+          <span class="tag-sample">&lt;body&gt;</span> tag. Metadata is data
+          about the HTML document. Metadata is not displayed. Metadata typically
+          define the document title, character set, styles, scripts, and other
+          meta information.
+        </p>
+      </section>
+      <section class="main-section" id="body_tag">
+        <header class="header-body">Body tag</header>
+        <p class="definition">Definition</p>
+        <p class="content">
+          The body tag in HTML is a container element that holds the main
+          content of an HTML document and is visible on the web page:
+        </p>
+        <pre>
+  <code class´="snippet">
+  &lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8" />
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" />
+&lt;title>Here the Page Title/title>
+&lt;link rel="stylesheet" href="styles.css" />
+&lt;/head>
+&lt;body>
+&lt;h1>Welcome to My Webpage/h1>
+&lt;p>This is the content of my webpage/p>
+&lt;/body>
+&lt;/html>
+  </code>
+</pre>
+        <p class="use">Why to use it</p>
+        <p class="content">
+          The Body tag is an integral part of any HTML page, required to
+          indicate
+          <span class="text-bold">the boundaries of the main content</span> that
+          is displayed to users.
+        </p>
+      </section>
+      <section class="main-section" id="main_tag">
+        <header class="header-body">Main tag</header>
+        <p class="definition">Definition</p>
+        <p class="content">
+          The HTML <span class="tag-sample">&lt;main&gt;</span> tag is a
+          structural element that indicates the primary content of a document or
+          application
+        </p>
+        <pre>
+  <code class´="snippet">
+  &lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+&lt;meta charset="UTF-8" />
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" />
+&lt;title>Here the Page Title/title>
+&lt;link rel="stylesheet" href="styles.css" />
+&lt;/head>
+&lt;body>
+&lt;main>
+&lt;h1>Most Popular Browsers/h1>
+&lt;p>Chrome, Firefox, and Edge are the most used browsers today/p>
+&lt;/main>
+&lt;/body>
+&lt;/html>
+  </code>
+</pre>
+        <p class="use">Why to use it</p>
+        <p class="content">
+          The <span class="tag-sample">&lt;main&gt;</span> tag should be used to
+          contain the content that is directly related to or expands upon the
+          document's or application's central topic or feature.
+          <span class="tag-sample"
+            >It should not contain any content that is repeated across documents
+            such as sidebars, navigation links, copyright information, site
+            logos, and search forms.</span
+          >
+        </p>
+      </section>
+      <section class="main-section" id="other_tags">
+        <header class="header-body">Other tags</header>
+        <p class="content">Other popular tags (the list goes on):</p>
+        <ul>
+          <li>
+            <span class="text-bold"
+              ><a
+                href="https://www.w3schools.com/tags/tag_hn.asp"
+                alt="W3school webpage"
+                target="_blank"
+                >H1, H2, H3, H4, H5, H6</a
+              ></span
+            >
+          </li>
+          <li>
+            <span class="text-bold"
+              ><a
+                href="https://www.w3schools.com/tags/tag_section.asp"
+                alt="W3school webpage"
+                target="_blank"
+                >section</a
+              ></span
+            >
+          </li>
+          <li>
+            <span class="text-bold"
+              ><a
+                href="https://www.w3schools.com/tags/tag_footer.asp"
+                alt="W3school webpage"
+                target="_blank"
+                >footer</a
+              ></span
+            >
+          </li>
+          <li>
+            <span class="text-bold"
+              ><a
+                href="https://www.w3schools.com/tags/tag_img.asp"
+                alt="W3school webpage"
+                target="_blank"
+                >img</a
+              ></span
+            >
+          </li>
+          <li>
+            <span class="text-bold"
+              ><a
+                href="https://www.w3schools.com/tags/tag_p.asp"
+                alt="W3school webpage"
+                target="_blank"
+                >p</a
+              ></span
+            >
+          </li>
+          <li>
+            <span class="text-bold"
+              ><a
+                href="https://www.w3schools.com/tags/tag_ul.asp"
+                alt="W3school webpage"
+                target="_blank"
+                >ul/ol</a
+              ></span
+            >
+          </li>
+          <li>
+            <span class="text-bold"
+              ><a
+                href="https://www.w3schools.com/tags/tag_a.asp"
+                alt="W3school webpage"
+                target="_blank"
+                >a</a
+              ></span
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="reference">
+        <header class="header-body">Reference</header>
+        <p class="content final_content">
+          Learn more about HTML tags by visiting
+          <a
+            href="https://www.w3schools.com/html/default.asp"
+            atl="W3schools website"
+            target="_blank"
+            >W3schools</a
+          >
+          webpage.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
