@@ -1,1 +1,0 @@
-![Registration Form](/4_Learn_HTML_Forms_by_building_a_Registration_Form/images/registration_form.png)

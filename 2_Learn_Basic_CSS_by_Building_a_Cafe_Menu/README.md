@@ -1,1 +1,0 @@
-![Cafe Menu](/2_Learn_Basic_CSS_by_Building_a_Cafe_Menu/images/cafe_menu_image.png)

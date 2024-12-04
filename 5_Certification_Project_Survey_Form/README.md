@@ -1,1 +1,0 @@
-![Survey Form](/5_Certification_Project_Survey_Form/images/survey_form.png)

@@ -1,0 +1,1 @@
+![CSS Color Markers](/03_Learn_CSS_colors_by_building_a_Set_of_Colored_Markers/images/color_markers_image.png)

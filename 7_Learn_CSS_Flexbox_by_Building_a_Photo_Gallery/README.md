@@ -1,1 +1,0 @@
-![Photo Cat Gallery](/7_Learn_CSS_Flexbox_by_Building_a_Photo_Gallery/images/photo_gallery.png)

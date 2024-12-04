@@ -1,1 +1,0 @@
-![Nutrition Label](/8_Learn_Typography_by_Building_a_Nutrition_Label/images/nutrition_label.png)
